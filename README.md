@@ -34,7 +34,9 @@ To deploy the smart contract, you will need:
    ```bash
    git clone <repository-url>
    cd <repository-directory>
-   ## contract Address:
+   ```
+
+## contract Address:
    0xd010910f2a4310a4da0F81b4cE8A796e4ce4CdE0
    ![image](https://github.com/user-attachments/assets/b6ce7236-8136-408b-98bd-967b76b39f8c)
 
