@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Token Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>CommunityToken Dashboard</h1>
+            <p>Manage your CTK tokens and rewards</p>
+        </header>
+        <main>
+            <section class="form-section">
+                <h2>Transfer Tokens</h2>
+                <input type="text" id="transferTo" placeholder="Recipient Address" />
+                <input type="number" id="transferAmount" placeholder="Amount" />
+                <button id="transferButton">Transfer</button>
+            </section>
+            <section class="form-section">
+                <h2>Approve Allowance</h2>
+                <input type="text" id="spenderAddress" placeholder="Spender Address" />
+                <input type="number" id="allowanceAmount" placeholder="Amount" />
+                <button id="approveButton">Approve</button>
+            </section>
+            <section class="form-section">
+                <h2>Withdraw Rewards</h2>
+                <button id="withdrawButton">Withdraw Rewards</button>
+            </section>
+            <section class="form-section">
+                <h2>Your Rewards</h2>
+                <p id="rewardBalance">Reward Balance: 0 CTK</p>
+            </section>
+        </main>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
